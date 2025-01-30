@@ -8,7 +8,7 @@ public class Exam {
     public Exam() {
     }
 
-    public Exam(int exam_id, int score) {
+    public Exam(int exam_id, int score ) {
         this.exam_id = exam_id;
         this.score = score;
         this.reattemptExam = new ReattemptExam(1);

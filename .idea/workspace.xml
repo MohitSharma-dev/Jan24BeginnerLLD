@@ -4,28 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f28f020-ddb4-4019-b4e6-cba35d696f56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/copyConstructor/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/copyConstructor/Exam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/copyConstructor/ReattemptExam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/copyConstructor/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/TA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/constructorChaining/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/constructorChaining/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/constructorChaining/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/constructorChaining/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/constructorChaining/D.java" afterDir="false" />
+    <list default="true" id="0f28f020-ddb4-4019-b4e6-cba35d696f56" name="Changes" comment="Copy Constructor , Inheritance">
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractClasses/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractClasses/AnimalUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractClasses/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractClasses/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractClasses/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/AnimalUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/RoboticDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Stack/ArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Stack/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Stack/LinkedListStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Stack/QueueStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Stack/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Stack/StackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/polymorphism/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/polymorphism/AnimalUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/polymorphism/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/polymorphism/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/polymorphism/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/copyConstructor/Exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/copyConstructor/Exam.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +39,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -42,9 +47,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MohitSharma-dev&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MohitSharma-dev/Jan24BeginnerLLD.git&quot;,
+    &quot;accountId&quot;: &quot;37a32403-9101-408f-b867-fd396bb278a7&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2sEmpKP0QHEToGw6f2CfJbbB2kY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -58,10 +75,14 @@
     "Application.Client.executor": "Debug",
     "Application.inheritance.Client.executor": "Run",
     "Application.inheritance.constructorChaining.Client.executor": "Run",
+    "Application.interfaces.Client.executor": "Run",
+    "Application.interfaces.Stack.Client.executor": "Run",
+    "Application.polymorphism.Client.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mohitsharma/Documents/Student_Submissions/Jan24BeginnerMorning/src/main/java/abstractClasses",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,20 +91,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.inheritance.constructorChaining.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="copyConstructor.Client" />
-      <module name="Jan24BeginnerMorning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="copyConstructor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/abstractClasses" />
+      <recent name="$PROJECT_DIR$/src/main/java/interfaces" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.interfaces.Stack.Client">
     <configuration name="inheritance.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inheritance.Client" />
       <module name="Jan24BeginnerMorning" />
@@ -110,11 +124,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="interfaces.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaces.Client" />
+      <module name="Jan24BeginnerMorning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="interfaces.Stack.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaces.Stack.Client" />
+      <module name="Jan24BeginnerMorning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfaces.Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="polymorphism.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="polymorphism.Client" />
+      <module name="Jan24BeginnerMorning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="polymorphism.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.interfaces.Stack.Client" />
+        <item itemvalue="Application.interfaces.Client" />
+        <item itemvalue="Application.polymorphism.Client" />
         <item itemvalue="Application.inheritance.constructorChaining.Client" />
         <item itemvalue="Application.inheritance.Client" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -134,12 +189,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738029294111</updated>
-      <workItem from="1738029295239" duration="4966000" />
+      <workItem from="1738029295239" duration="5829000" />
+      <workItem from="1738202566944" duration="3429000" />
     </task>
+    <task id="LOCAL-00001" summary="Copy Constructor , Inheritance">
+      <option name="closed" value="true" />
+      <created>1738034510763</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738034510764</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Copy Constructor , Inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Copy Constructor , Inheritance" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
