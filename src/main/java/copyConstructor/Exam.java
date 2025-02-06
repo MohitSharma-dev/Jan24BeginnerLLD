@@ -22,3 +22,7 @@ public class Exam {
         this.reattemptExam = new ReattemptExam(other.reattemptExam);
     }
 }
+
+
+// Step 1 : Define your task
+    // By creating a class

@@ -4,30 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f28f020-ddb4-4019-b4e6-cba35d696f56" name="Changes" comment="Copy Constructor , Inheritance">
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractClasses/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractClasses/AnimalUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractClasses/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractClasses/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractClasses/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/AnimalUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/RoboticDog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Stack/ArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Stack/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Stack/LinkedListStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Stack/QueueStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Stack/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Stack/StackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/polymorphism/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/polymorphism/AnimalUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/polymorphism/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/polymorphism/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/polymorphism/Dog.java" afterDir="false" />
+    <list default="true" id="0f28f020-ddb4-4019-b4e6-cba35d696f56" name="Changes" comment="Polymorphism&#10;Interfaces&#10;Abstract classes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/IntroToThreads/HelloWorldPrinter/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IntroToThreads/HelloWorldPrinter/FibonnaciNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IntroToThreads/HelloWorldPrinter/HelloWorldPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IntroToThreads/HelloWorldPrinter/NumberPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IntroToThreads/HelloWorldPrinter/SumCalculation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/copyConstructor/Exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/copyConstructor/Exam.java" afterDir="false" />
     </list>
@@ -72,7 +54,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Client.executor": "Debug",
+    "Application.Client.executor": "Run",
     "Application.inheritance.Client.executor": "Run",
     "Application.inheritance.constructorChaining.Client.executor": "Run",
     "Application.interfaces.Client.executor": "Run",
@@ -97,13 +79,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/interfaces" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.interfaces.Stack.Client">
-    <configuration name="inheritance.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritance.Client" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IntroToThreads.HelloWorldPrinter.Client" />
       <module name="Jan24BeginnerMorning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inheritance.*" />
+          <option name="PATTERN" value="IntroToThreads.HelloWorldPrinter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.interfaces.Stack.Client" />
         <item itemvalue="Application.interfaces.Client" />
         <item itemvalue="Application.polymorphism.Client" />
         <item itemvalue="Application.inheritance.constructorChaining.Client" />
-        <item itemvalue="Application.inheritance.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +172,8 @@
       <option name="presentableId" value="Default" />
       <updated>1738029294111</updated>
       <workItem from="1738029295239" duration="5829000" />
-      <workItem from="1738202566944" duration="3429000" />
+      <workItem from="1738202566944" duration="3464000" />
+      <workItem from="1738808713760" duration="4163000" />
     </task>
     <task id="LOCAL-00001" summary="Copy Constructor , Inheritance">
       <option name="closed" value="true" />
@@ -200,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738034510764</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Polymorphism&#10;Interfaces&#10;Abstract classes">
+      <option name="closed" value="true" />
+      <created>1738208170050</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738208170050</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +199,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Copy Constructor , Inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Copy Constructor , Inheritance" />
+    <MESSAGE value="Polymorphism&#10;Interfaces&#10;Abstract classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Polymorphism&#10;Interfaces&#10;Abstract classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
