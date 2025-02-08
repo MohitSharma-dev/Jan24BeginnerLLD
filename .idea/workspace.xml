@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f28f020-ddb4-4019-b4e6-cba35d696f56" name="Changes" comment="Polymorphism&#10;Interfaces&#10;Abstract classes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/IntroToThreads/HelloWorldPrinter/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IntroToThreads/HelloWorldPrinter/FibonnaciNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IntroToThreads/HelloWorldPrinter/HelloWorldPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IntroToThreads/HelloWorldPrinter/NumberPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IntroToThreads/HelloWorldPrinter/SumCalculation.java" afterDir="false" />
+    <list default="true" id="0f28f020-ddb4-4019-b4e6-cba35d696f56" name="Changes" comment="Threading 1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractor/Adder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractor/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractor/Subtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractor/Value.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/copyConstructor/Exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/copyConstructor/Exam.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +53,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Client.executor": "Run",
+    "Application.MultiThreading2.AdderSubtractor.Client.executor": "Run",
     "Application.inheritance.Client.executor": "Run",
     "Application.inheritance.constructorChaining.Client.executor": "Run",
     "Application.interfaces.Client.executor": "Run",
@@ -79,7 +78,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/interfaces" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.MultiThreading2.AdderSubtractor.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IntroToThreads.HelloWorldPrinter.Client" />
       <module name="Jan24BeginnerMorning" />
@@ -93,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="inheritance.constructorChaining.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritance.constructorChaining.Client" />
+    <configuration name="MultiThreading2.AdderSubtractor.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreading2.AdderSubtractor.Client" />
       <module name="Jan24BeginnerMorning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inheritance.constructorChaining.*" />
+          <option name="PATTERN" value="MultiThreading2.AdderSubtractor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiThreading2.AdderSubtractor.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.interfaces.Stack.Client" />
         <item itemvalue="Application.interfaces.Client" />
         <item itemvalue="Application.polymorphism.Client" />
-        <item itemvalue="Application.inheritance.constructorChaining.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +172,8 @@
       <updated>1738029294111</updated>
       <workItem from="1738029295239" duration="5829000" />
       <workItem from="1738202566944" duration="3464000" />
-      <workItem from="1738808713760" duration="4163000" />
+      <workItem from="1738808713760" duration="4792000" />
+      <workItem from="1738979206558" duration="1781000" />
     </task>
     <task id="LOCAL-00001" summary="Copy Constructor , Inheritance">
       <option name="closed" value="true" />
@@ -191,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738208170050</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Threading 1">
+      <option name="closed" value="true" />
+      <created>1738812942321</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738812942321</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +208,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Copy Constructor , Inheritance" />
     <MESSAGE value="Polymorphism&#10;Interfaces&#10;Abstract classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Polymorphism&#10;Interfaces&#10;Abstract classes" />
+    <MESSAGE value="Threading 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Threading 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
