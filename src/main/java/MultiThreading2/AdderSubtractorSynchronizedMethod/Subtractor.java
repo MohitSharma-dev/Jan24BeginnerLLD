@@ -1,4 +1,4 @@
-package MultiThreading2.AdderSubtractor;
+package MultiThreading2.AdderSubtractorSynchronizedMethod;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.locks.Lock;
@@ -16,7 +16,7 @@ public class Subtractor implements Callable<Void> {
         for(long i = 0; i <=100000; i++){
 //            System.out.println("Subtracting " + i);
 
-            value.setX(value.getX()-i);
+            value.decrementBy(i);
 
         }
         return null;

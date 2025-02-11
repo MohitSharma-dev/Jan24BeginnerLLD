@@ -4,12 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f28f020-ddb4-4019-b4e6-cba35d696f56" name="Changes" comment="Threading 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractor/Adder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractor/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractor/Subtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractor/Value.java" afterDir="false" />
+    <list default="true" id="0f28f020-ddb4-4019-b4e6-cba35d696f56" name="Changes" comment="Threading 2 : Adder Subtractor">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractorSynchronizedBlock/Adder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractorSynchronizedBlock/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractorSynchronizedBlock/Subtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractorSynchronizedBlock/Value.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractorSynchronizedMethod/Adder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractorSynchronizedMethod/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractorSynchronizedMethod/Subtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractorSynchronizedMethod/Value.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProducerConsumer/ProducerConsumerSemaphores/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProducerConsumer/ProducerConsumerSemaphores/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProducerConsumer/ProducerConsumerSemaphores/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProducerConsumer/ProducerConsumerSemaphores/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProducerConsumer/ProducerConsumerSyncBlock/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProducerConsumer/ProducerConsumerSyncBlock/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProducerConsumer/ProducerConsumerSyncBlock/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProducerConsumer/ProducerConsumerSyncBlock/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProducerConsumer/ProducerConsumerSyncMethod/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProducerConsumer/ProducerConsumerSyncMethod/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProducerConsumer/ProducerConsumerSyncMethod/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProducerConsumer/ProducerConsumerSyncMethod/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProducerConsumer/ProducerConsumerV0/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProducerConsumer/ProducerConsumerV0/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProducerConsumer/ProducerConsumerV0/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProducerConsumer/ProducerConsumerV0/Store.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractor/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractor/Adder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractor/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractor/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractor/Subtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractor/Subtractor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +77,9 @@
   "keyToString": {
     "Application.Client.executor": "Run",
     "Application.MultiThreading2.AdderSubtractor.Client.executor": "Run",
+    "Application.ProducerConsumer.ProducerConsumerSemaphores.Client.executor": "Run",
+    "Application.ProducerConsumer.ProducerConsumerSyncBlock.Client.executor": "Run",
+    "Application.ProducerConsumer.ProducerConsumerV0.Client.executor": "Run",
     "Application.inheritance.Client.executor": "Run",
     "Application.inheritance.constructorChaining.Client.executor": "Run",
     "Application.interfaces.Client.executor": "Run",
@@ -63,7 +89,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mohitsharma/Documents/Student_Submissions/Jan24BeginnerMorning/src/main/java/abstractClasses",
+    "last_opened_file_path": "/Users/mohitsharma/Documents/Student_Submissions/Jan24BeginnerMorning/src/main/java/ProducerConsumer/ProducerConsumerSemaphores",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,11 +100,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/abstractClasses" />
-      <recent name="$PROJECT_DIR$/src/main/java/interfaces" />
+      <recent name="$PROJECT_DIR$/src/main/java/ProducerConsumer/ProducerConsumerSemaphores" />
+      <recent name="$PROJECT_DIR$/src/main/java/ProducerConsumer/ProducerConsumerSyncBlock" />
+      <recent name="$PROJECT_DIR$/src/main/java/ProducerConsumer/ProducerConsumerSyncMethod" />
+      <recent name="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractorSynchronizedMethod" />
+      <recent name="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractorSynchronizedBlock" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MultiThreading2.AdderSubtractor.Client">
+  <component name="RunManager" selected="Application.ProducerConsumer.ProducerConsumerSemaphores.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IntroToThreads.HelloWorldPrinter.Client" />
       <module name="Jan24BeginnerMorning" />
@@ -105,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="interfaces.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaces.Client" />
+    <configuration name="ProducerConsumer.ProducerConsumerSemaphores.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProducerConsumer.ProducerConsumerSemaphores.Client" />
       <module name="Jan24BeginnerMorning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfaces.*" />
+          <option name="PATTERN" value="ProducerConsumer.ProducerConsumerSemaphores.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="interfaces.Stack.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaces.Stack.Client" />
+    <configuration name="ProducerConsumer.ProducerConsumerSyncBlock.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProducerConsumer.ProducerConsumerSyncBlock.Client" />
       <module name="Jan24BeginnerMorning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfaces.Stack.*" />
+          <option name="PATTERN" value="ProducerConsumer.ProducerConsumerSyncBlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="polymorphism.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="polymorphism.Client" />
+    <configuration name="ProducerConsumer.ProducerConsumerV0.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProducerConsumer.ProducerConsumerV0.Client" />
       <module name="Jan24BeginnerMorning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="polymorphism.*" />
+          <option name="PATTERN" value="ProducerConsumer.ProducerConsumerV0.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProducerConsumer.ProducerConsumerSemaphores.Client" />
+        <item itemvalue="Application.ProducerConsumer.ProducerConsumerSyncBlock.Client" />
+        <item itemvalue="Application.ProducerConsumer.ProducerConsumerV0.Client" />
         <item itemvalue="Application.MultiThreading2.AdderSubtractor.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.interfaces.Stack.Client" />
-        <item itemvalue="Application.interfaces.Client" />
-        <item itemvalue="Application.polymorphism.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +202,8 @@
       <workItem from="1738029295239" duration="5829000" />
       <workItem from="1738202566944" duration="3464000" />
       <workItem from="1738808713760" duration="4792000" />
-      <workItem from="1738979206558" duration="1781000" />
+      <workItem from="1738979206558" duration="5925000" />
+      <workItem from="1739238439271" duration="2664000" />
     </task>
     <task id="LOCAL-00001" summary="Copy Constructor , Inheritance">
       <option name="closed" value="true" />
@@ -199,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738812942321</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Threading 2 : Adder Subtractor">
+      <option name="closed" value="true" />
+      <created>1738981795382</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738981795382</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +247,8 @@
     <MESSAGE value="Copy Constructor , Inheritance" />
     <MESSAGE value="Polymorphism&#10;Interfaces&#10;Abstract classes" />
     <MESSAGE value="Threading 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Threading 1" />
+    <MESSAGE value="Threading 2 : Adder Subtractor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Threading 2 : Adder Subtractor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

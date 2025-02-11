@@ -1,15 +1,12 @@
-package MultiThreading2.AdderSubtractor;
+package MultiThreading2.AdderSubtractorSynchronizedBlock;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
 
 public class Adder implements Callable<Void> {
     private Value value;
-    private Lock lock;
     public Adder(Value value, Lock lock) {
         this.value = value;
-        this.lock = lock;
     }
 
 //    you can't pass anything in the call method
@@ -19,9 +16,9 @@ public class Adder implements Callable<Void> {
 //        add from 1->100
         for(long i = 0; i <=100000; i++){
 //            System.out.println("Adding " + i);
-            lock.lock();
-            value.setX(value.getX()+i);
-            lock.unlock();
+            synchronized (value){
+                value.setX(value.getX()+i);
+            }
         }
         return null;
     }

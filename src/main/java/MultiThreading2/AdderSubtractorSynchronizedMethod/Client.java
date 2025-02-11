@@ -1,4 +1,4 @@
-package MultiThreading2.AdderSubtractor;
+package MultiThreading2.AdderSubtractorSynchronizedMethod;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
@@ -23,6 +23,6 @@ public class Client {
         adderFuture.get();
         subtractorFuture.get();
 
-        System.out.println(value.getX());
+//        System.out.println(value.getX());
     }
 }
