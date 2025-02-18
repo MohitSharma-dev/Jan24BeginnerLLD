@@ -56,6 +56,6 @@ public class Client {
 
         AnimalUtility.printAnimalNames(dogs);
 
-        Map
+//        Map
     }
 }
