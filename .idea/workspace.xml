@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f28f020-ddb4-4019-b4e6-cba35d696f56" name="Changes" comment="Threading : Producer / Consumer">
-      <change afterPath="$PROJECT_DIR$/src/main/java/InventoryManagementSystem/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InventoryManagementSystem/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InventoryManagementSystem/Clothing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InventoryManagementSystem/Electronics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InventoryManagementSystem/Item.java" afterDir="false" />
+    <list default="true" id="0f28f020-ddb4-4019-b4e6-cba35d696f56" name="Changes" comment="Inventory Management System : MileStone 1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/InventoryManagementSystem/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/InventoryManagementSystem/ItemQuantityComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/InventoryManagementSystem/RecentlyViewedItems.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Generics/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Generics/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InventoryManagementSystem/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InventoryManagementSystem/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InventoryManagementSystem/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InventoryManagementSystem/Item.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +184,7 @@
       <workItem from="1738979206558" duration="5925000" />
       <workItem from="1739238439271" duration="2700000" />
       <workItem from="1739584645434" duration="4963000" />
-      <workItem from="1739842654640" duration="2392000" />
+      <workItem from="1739842654640" duration="6661000" />
     </task>
     <task id="LOCAL-00001" summary="Copy Constructor , Inheritance">
       <option name="closed" value="true" />
@@ -235,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739589383305</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Inventory Management System : MileStone 1">
+      <option name="closed" value="true" />
+      <created>1739845351013</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739845351014</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +254,8 @@
     <MESSAGE value="Threading 1" />
     <MESSAGE value="Threading 2 : Adder Subtractor" />
     <MESSAGE value="Threading : Producer / Consumer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Threading : Producer / Consumer" />
+    <MESSAGE value="Inventory Management System : MileStone 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inventory Management System : MileStone 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

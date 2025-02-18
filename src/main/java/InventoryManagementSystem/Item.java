@@ -71,3 +71,8 @@ public class Item implements Comparable<Item> {
 // Item : Clothing , Book ,Electronics
 // item which doesn't lie in the category
 
+
+// default ordering is based on price
+// someone wants to order the items according to the quantity
+
+// Comparator
