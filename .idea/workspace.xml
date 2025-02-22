@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f28f020-ddb4-4019-b4e6-cba35d696f56" name="Changes" comment="Inventory Management System : MileStone 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/InventoryManagementSystem/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InventoryManagementSystem/ItemQuantityComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InventoryManagementSystem/RecentlyViewedItems.java" afterDir="false" />
+    <list default="true" id="0f28f020-ddb4-4019-b4e6-cba35d696f56" name="Changes" comment="Inventory Management System : MileStone 2 &amp; 3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LambdasStreamsAndExceptions/ExceptionsClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LambdasStreamsAndExceptions/LambdasClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LambdasStreamsAndExceptions/RandomClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LambdasStreamsAndExceptions/StreamsClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InventoryManagementSystem/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InventoryManagementSystem/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InventoryManagementSystem/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InventoryManagementSystem/Item.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,32 +50,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Generics.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultiThreading2.AdderSubtractor.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProducerConsumer.ProducerConsumerSemaphores.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProducerConsumer.ProducerConsumerSyncBlock.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProducerConsumer.ProducerConsumerV0.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.inheritance.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.inheritance.constructorChaining.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.interfaces.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.interfaces.Stack.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.polymorphism.Client.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mohitsharma/Documents/Student_Submissions/Jan24BeginnerMorning/src/main/java/ProducerConsumer/ProducerConsumerSemaphores&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Client.executor": "Run",
+    "Application.ExceptionsClient.executor": "Run",
+    "Application.Generics.Client.executor": "Run",
+    "Application.LambdasClient.executor": "Run",
+    "Application.MultiThreading2.AdderSubtractor.Client.executor": "Run",
+    "Application.ProducerConsumer.ProducerConsumerSemaphores.Client.executor": "Run",
+    "Application.ProducerConsumer.ProducerConsumerSyncBlock.Client.executor": "Run",
+    "Application.ProducerConsumer.ProducerConsumerV0.Client.executor": "Run",
+    "Application.StreamsClient.executor": "Run",
+    "Application.inheritance.Client.executor": "Run",
+    "Application.inheritance.constructorChaining.Client.executor": "Run",
+    "Application.interfaces.Client.executor": "Run",
+    "Application.interfaces.Stack.Client.executor": "Run",
+    "Application.polymorphism.Client.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mohitsharma/Documents/Student_Submissions/Jan24BeginnerMorning/src/main/java/ProducerConsumer/ProducerConsumerSemaphores",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/ProducerConsumer/ProducerConsumerSemaphores" />
@@ -86,13 +88,26 @@
       <recent name="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractorSynchronizedBlock" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.ExceptionsClient">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InventoryManagementSystem.Client" />
       <module name="Jan24BeginnerMorning" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="InventoryManagementSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionsClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LambdasStreamsAndExceptions.ExceptionsClient" />
+      <module name="Jan24BeginnerMorning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LambdasStreamsAndExceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerConsumer.ProducerConsumerSemaphores.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProducerConsumer.ProducerConsumerSemaphores.Client" />
+    <configuration name="LambdasClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LambdasStreamsAndExceptions.LambdasClient" />
       <module name="Jan24BeginnerMorning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ProducerConsumer.ProducerConsumerSemaphores.*" />
+          <option name="PATTERN" value="LambdasStreamsAndExceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,25 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerConsumer.ProducerConsumerSyncBlock.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProducerConsumer.ProducerConsumerSyncBlock.Client" />
+    <configuration name="StreamsClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LambdasStreamsAndExceptions.StreamsClient" />
       <module name="Jan24BeginnerMorning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ProducerConsumer.ProducerConsumerSyncBlock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProducerConsumer.ProducerConsumerV0.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProducerConsumer.ProducerConsumerV0.Client" />
-      <module name="Jan24BeginnerMorning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ProducerConsumer.ProducerConsumerV0.*" />
+          <option name="PATTERN" value="LambdasStreamsAndExceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExceptionsClient" />
+        <item itemvalue="Application.StreamsClient" />
+        <item itemvalue="Application.LambdasClient" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Generics.Client" />
-        <item itemvalue="Application.ProducerConsumer.ProducerConsumerSemaphores.Client" />
-        <item itemvalue="Application.ProducerConsumer.ProducerConsumerSyncBlock.Client" />
-        <item itemvalue="Application.ProducerConsumer.ProducerConsumerV0.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +186,8 @@
       <workItem from="1738979206558" duration="5925000" />
       <workItem from="1739238439271" duration="2700000" />
       <workItem from="1739584645434" duration="4963000" />
-      <workItem from="1739842654640" duration="6661000" />
+      <workItem from="1739842654640" duration="7862000" />
+      <workItem from="1740188190490" duration="6030000" />
     </task>
     <task id="LOCAL-00001" summary="Copy Constructor , Inheritance">
       <option name="closed" value="true" />
@@ -242,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739845351014</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Inventory Management System : MileStone 2 &amp; 3">
+      <option name="closed" value="true" />
+      <created>1739849369850</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1739849369850</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +266,8 @@
     <MESSAGE value="Threading 2 : Adder Subtractor" />
     <MESSAGE value="Threading : Producer / Consumer" />
     <MESSAGE value="Inventory Management System : MileStone 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inventory Management System : MileStone 1" />
+    <MESSAGE value="Inventory Management System : MileStone 2 &amp; 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inventory Management System : MileStone 2 &amp; 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
