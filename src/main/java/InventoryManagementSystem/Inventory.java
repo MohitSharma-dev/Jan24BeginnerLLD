@@ -16,6 +16,9 @@ public class Inventory <T extends Item>{
 
 //    core methods : add , remove , retrieve , list all the items
     public void add(T item){
+        if(item.getQuantity() <= 0){
+            throw new InvalidQuantityException("Quantity must be greater than 0");
+        }
         items.put(item.getId() , item);
     }
 

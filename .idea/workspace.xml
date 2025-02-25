@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f28f020-ddb4-4019-b4e6-cba35d696f56" name="Changes" comment="Inventory Management System : MileStone 2 &amp; 3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LambdasStreamsAndExceptions/ExceptionsClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LambdasStreamsAndExceptions/LambdasClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LambdasStreamsAndExceptions/RandomClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LambdasStreamsAndExceptions/StreamsClient.java" afterDir="false" />
+    <list default="true" id="0f28f020-ddb4-4019-b4e6-cba35d696f56" name="Changes" comment="Lambdas , Streams and Exceptions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/InventoryManagementSystem/InvalidQuantityException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/InventoryManagementSystem/StreamsAndExceptionsClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InventoryManagementSystem/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InventoryManagementSystem/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LambdasStreamsAndExceptions/ExceptionsClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LambdasStreamsAndExceptions/ExceptionsClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LambdasStreamsAndExceptions/RandomClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LambdasStreamsAndExceptions/RandomClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +61,7 @@
     "Application.ProducerConsumer.ProducerConsumerSemaphores.Client.executor": "Run",
     "Application.ProducerConsumer.ProducerConsumerSyncBlock.Client.executor": "Run",
     "Application.ProducerConsumer.ProducerConsumerV0.Client.executor": "Run",
+    "Application.StreamsAndExceptionsClient.executor": "Run",
     "Application.StreamsClient.executor": "Run",
     "Application.inheritance.Client.executor": "Run",
     "Application.inheritance.constructorChaining.Client.executor": "Run",
@@ -88,7 +90,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractorSynchronizedBlock" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExceptionsClient">
+  <component name="RunManager" selected="Application.StreamsAndExceptionsClient">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InventoryManagementSystem.Client" />
       <module name="Jan24BeginnerMorning" />
@@ -115,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Generics.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generics.Client" />
+    <configuration name="LambdasClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LambdasStreamsAndExceptions.LambdasClient" />
       <module name="Jan24BeginnerMorning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Generics.*" />
+          <option name="PATTERN" value="LambdasStreamsAndExceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdasClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LambdasStreamsAndExceptions.LambdasClient" />
+    <configuration name="StreamsAndExceptionsClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InventoryManagementSystem.StreamsAndExceptionsClient" />
       <module name="Jan24BeginnerMorning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LambdasStreamsAndExceptions.*" />
+          <option name="PATTERN" value="InventoryManagementSystem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamsAndExceptionsClient" />
         <item itemvalue="Application.ExceptionsClient" />
         <item itemvalue="Application.StreamsClient" />
         <item itemvalue="Application.LambdasClient" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Generics.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +189,8 @@
       <workItem from="1739238439271" duration="2700000" />
       <workItem from="1739584645434" duration="4963000" />
       <workItem from="1739842654640" duration="7862000" />
-      <workItem from="1740188190490" duration="6030000" />
+      <workItem from="1740188190490" duration="7160000" />
+      <workItem from="1740447648188" duration="4609000" />
     </task>
     <task id="LOCAL-00001" summary="Copy Constructor , Inheritance">
       <option name="closed" value="true" />
@@ -253,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739849369850</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Lambdas , Streams and Exceptions">
+      <option name="closed" value="true" />
+      <created>1740194329214</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740194329214</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +278,8 @@
     <MESSAGE value="Threading : Producer / Consumer" />
     <MESSAGE value="Inventory Management System : MileStone 1" />
     <MESSAGE value="Inventory Management System : MileStone 2 &amp; 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inventory Management System : MileStone 2 &amp; 3" />
+    <MESSAGE value="Lambdas , Streams and Exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lambdas , Streams and Exceptions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
