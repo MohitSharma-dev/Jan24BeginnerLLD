@@ -4,24 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f28f020-ddb4-4019-b4e6-cba35d696f56" name="Changes" comment="Factory Design pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Adapter/BankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Adapter/BankAPIAdapter/ICICIBankAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Adapter/BankAPIAdapter/YesBankAPIAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Adapter/BankAPIFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Adapter/BankAPIs/ICICIBankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Adapter/BankAPIs/YesBankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Adapter/BillPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Adapter/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Adapter/FastTagRecharge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Adapter/PhonePe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Strategy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Strategy/FarthestSlotAllocationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Strategy/NearestSlotAllocationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Strategy/ParkingLot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Strategy/RandomSlotAllocationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Strategy/SlotAllocationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Strategy/SlotAllocationStrategyFactory.java" afterDir="false" />
+    <list default="true" id="0f28f020-ddb4-4019-b4e6-cba35d696f56" name="Changes" comment="Adapter And Strategy">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Observer/CurrStatisticsDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Observer/Display.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Observer/WeatherData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/PrototypeAndRegistry/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/PrototypeAndRegistry/IntelligentStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/PrototypeAndRegistry/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/PrototypeAndRegistry/StudentRegistry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -67,6 +59,7 @@
   "keyToString": {
     "Application.Client.executor": "Run",
     "Application.DesignPatterns.Factory.UIFramework.Client.executor": "Run",
+    "Application.DesignPatterns.PrototypeAndRegistry.Client.executor": "Debug",
     "Application.DesignPatterns.Strategy.Client.executor": "Run",
     "Application.ExceptionsClient.executor": "Run",
     "Application.Generics.Client.executor": "Run",
@@ -104,7 +97,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractorSynchronizedBlock" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DesignPatterns.Strategy.Client">
+  <component name="RunManager" selected="Application.WeatherStation">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPatterns.Adapter.Client" />
       <module name="Jan24BeginnerMorning" />
@@ -131,6 +124,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DesignPatterns.PrototypeAndRegistry.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.PrototypeAndRegistry.Client" />
+      <module name="Jan24BeginnerMorning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignPatterns.PrototypeAndRegistry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DesignPatterns.Strategy.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPatterns.Strategy.Client" />
       <module name="Jan24BeginnerMorning" />
@@ -144,25 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionsClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LambdasStreamsAndExceptions.ExceptionsClient" />
+    <configuration name="WeatherStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Observer.WeatherStation" />
       <module name="Jan24BeginnerMorning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LambdasStreamsAndExceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamsAndExceptionsClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InventoryManagementSystem.StreamsAndExceptionsClient" />
-      <module name="Jan24BeginnerMorning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InventoryManagementSystem.*" />
+          <option name="PATTERN" value="DesignPatterns.Observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WeatherStation" />
+        <item itemvalue="Application.DesignPatterns.PrototypeAndRegistry.Client" />
         <item itemvalue="Application.DesignPatterns.Strategy.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.DesignPatterns.Factory.UIFramework.Client" />
-        <item itemvalue="Application.StreamsAndExceptionsClient" />
-        <item itemvalue="Application.ExceptionsClient" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +200,9 @@
       <workItem from="1740447648188" duration="6225000" />
       <workItem from="1741057044723" duration="610000" />
       <workItem from="1741660427821" duration="1873000" />
-      <workItem from="1742263539968" duration="2160000" />
+      <workItem from="1742263539968" duration="2980000" />
+      <workItem from="1742349609349" duration="8000" />
+      <workItem from="1742436122124" duration="2946000" />
     </task>
     <task id="LOCAL-00001" summary="Copy Constructor , Inheritance">
       <option name="closed" value="true" />
@@ -297,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741661356147</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Adapter And Strategy">
+      <option name="closed" value="true" />
+      <created>1742266212273</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1742266212274</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +317,8 @@
     <MESSAGE value="Lambdas , Streams and Exceptions" />
     <MESSAGE value="Lambdas , Streams and Exceptions Exercises" />
     <MESSAGE value="Factory Design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Factory Design pattern" />
+    <MESSAGE value="Adapter And Strategy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adapter And Strategy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
