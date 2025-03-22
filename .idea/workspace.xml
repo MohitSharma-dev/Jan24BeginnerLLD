@@ -4,16 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f28f020-ddb4-4019-b4e6-cba35d696f56" name="Changes" comment="Adapter And Strategy">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Observer/CurrStatisticsDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Observer/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Observer/WeatherData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/PrototypeAndRegistry/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/PrototypeAndRegistry/IntelligentStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/PrototypeAndRegistry/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/PrototypeAndRegistry/StudentRegistry.java" afterDir="false" />
+    <list default="true" id="0f28f020-ddb4-4019-b4e6-cba35d696f56" name="Changes" comment="Observer">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Decorator/AddOn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Decorator/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Decorator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Decorator/DarkRoast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Decorator/Decaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Decorator/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Decorator/HouseBlend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Decorator/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Decorator/Mocha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Decorator/Whip.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,6 +59,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Client.executor": "Run",
+    "Application.DesignPatterns.Decorator.Client.executor": "Run",
     "Application.DesignPatterns.Factory.UIFramework.Client.executor": "Run",
     "Application.DesignPatterns.PrototypeAndRegistry.Client.executor": "Debug",
     "Application.DesignPatterns.Strategy.Client.executor": "Run",
@@ -70,6 +72,7 @@
     "Application.ProducerConsumer.ProducerConsumerV0.Client.executor": "Run",
     "Application.StreamsAndExceptionsClient.executor": "Run",
     "Application.StreamsClient.executor": "Run",
+    "Application.WeatherStation.executor": "Run",
     "Application.inheritance.Client.executor": "Run",
     "Application.inheritance.constructorChaining.Client.executor": "Run",
     "Application.interfaces.Client.executor": "Run",
@@ -97,7 +100,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/MultiThreading2/AdderSubtractorSynchronizedBlock" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WeatherStation">
+  <component name="RunManager" selected="Application.DesignPatterns.Decorator.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPatterns.Adapter.Client" />
       <module name="Jan24BeginnerMorning" />
@@ -111,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DesignPatterns.Factory.UIFramework.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Factory.UIFramework.Client" />
+    <configuration name="DesignPatterns.Decorator.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Decorator.Client" />
       <module name="Jan24BeginnerMorning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.Factory.UIFramework.*" />
+          <option name="PATTERN" value="DesignPatterns.Decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DesignPatterns.Decorator.Client" />
         <item itemvalue="Application.WeatherStation" />
         <item itemvalue="Application.DesignPatterns.PrototypeAndRegistry.Client" />
         <item itemvalue="Application.DesignPatterns.Strategy.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.DesignPatterns.Factory.UIFramework.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +205,7 @@
       <workItem from="1741660427821" duration="1873000" />
       <workItem from="1742263539968" duration="2980000" />
       <workItem from="1742349609349" duration="8000" />
-      <workItem from="1742436122124" duration="2946000" />
+      <workItem from="1742436122124" duration="4580000" />
     </task>
     <task id="LOCAL-00001" summary="Copy Constructor , Inheritance">
       <option name="closed" value="true" />
@@ -300,7 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742266212274</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Observer">
+      <option name="closed" value="true" />
+      <created>1742609208645</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1742609208645</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +329,8 @@
     <MESSAGE value="Lambdas , Streams and Exceptions Exercises" />
     <MESSAGE value="Factory Design pattern" />
     <MESSAGE value="Adapter And Strategy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adapter And Strategy" />
+    <MESSAGE value="Observer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Observer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
