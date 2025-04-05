@@ -7,12 +7,28 @@ public class Cell {
     private Symbol symbol;
     private CellState cellState;
 
+    public Cell(int row, int col){
+        this.row = row;
+        this.col = col;
+        this.symbol = null;
+        this.cellState = CellState.EMPTY;
+    }
+
     public CellState getCellState() {
         return cellState;
     }
 
     public void setCellState(CellState cellState) {
         this.cellState = cellState;
+    }
+
+    public void display(){
+        if(cellState == CellState.EMPTY){
+            System.out.print("| - |");
+        }
+        else if (cellState == CellState.FILLED){
+            System.out.print("| " + symbol.getSym() + " |");
+        }
     }
 
     public int getCol() {
