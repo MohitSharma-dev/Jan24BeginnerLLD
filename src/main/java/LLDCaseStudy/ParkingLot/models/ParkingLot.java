@@ -1,5 +1,7 @@
 package LLDCaseStudy.ParkingLot.models;
 
+import LLDCaseStudy.ParkingLot.strategies.SlotAllotcationStrategy;
+
 import java.util.List;
 
 public class ParkingLot extends BaseModel {
@@ -8,7 +10,16 @@ public class ParkingLot extends BaseModel {
     private List<ParkingFloor> parkingFloors;
     private String address;
     private List<Gate> gates;
+    private SlotAllotcationStrategy slotAllotcationStrategy;
     // status
+
+    public SlotAllotcationStrategy getSlotAllotcationStrategy() {
+        return slotAllotcationStrategy;
+    }
+
+    public void setSlotAllotcationStrategy(SlotAllotcationStrategy slotAllotcationStrategy) {
+        this.slotAllotcationStrategy = slotAllotcationStrategy;
+    }
     // allowedVehicleTypes
 
 

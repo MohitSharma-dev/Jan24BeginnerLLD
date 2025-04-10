@@ -6,7 +6,16 @@ public class IssueTicketRequestDTO {
     private String licensePlate;
     private String ownerName;
     private int gateId;
+    private int parkingLotId;
     private VehicleType vehicleType;
+
+    public int getParkingLotId() {
+        return parkingLotId;
+    }
+
+    public void setParkingLotId(int parkingLotId) {
+        this.parkingLotId = parkingLotId;
+    }
 
     public int getGateId() {
         return gateId;
