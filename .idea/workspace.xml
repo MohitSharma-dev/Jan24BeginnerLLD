@@ -4,23 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f28f020-ddb4-4019-b4e6-cba35d696f56" name="Changes" comment="TicTacToe 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/strategies/BotPlayingStrategyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/strategies/EasyBotPlayingStrategy.java" afterDir="false" />
+    <list default="true" id="0f28f020-ddb4-4019-b4e6-cba35d696f56" name="Changes" comment="TicTacToe complete">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/Gate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/GateType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/ParkingFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/ParkingSlot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/ParkingSlotStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/PaymentMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/PaymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/VehicleType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/controller/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/models/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/models/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/models/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/models/Bot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/models/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/models/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/models/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/models/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/models/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/models/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/models/Move.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/models/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/models/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/models/Symbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/models/Symbol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/strategies/BotPlayingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/strategies/BotPlayingStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/strategies/RowWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/strategies/RowWinningStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/strategies/WinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/TicTacToe/strategies/WinningStrategy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +31,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -62,42 +63,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Client.executor": "Run",
-    "Application.DesignPatterns.Decorator.Client.executor": "Run",
-    "Application.DesignPatterns.Factory.UIFramework.Client.executor": "Run",
-    "Application.DesignPatterns.PrototypeAndRegistry.Client.executor": "Debug",
-    "Application.DesignPatterns.Strategy.Client.executor": "Run",
-    "Application.ExceptionsClient.executor": "Run",
-    "Application.Generics.Client.executor": "Run",
-    "Application.LLDCaseStudy.TicTacToe.Client.executor": "Run",
-    "Application.LambdasClient.executor": "Run",
-    "Application.MultiThreading2.AdderSubtractor.Client.executor": "Run",
-    "Application.ProducerConsumer.ProducerConsumerSemaphores.Client.executor": "Run",
-    "Application.ProducerConsumer.ProducerConsumerSyncBlock.Client.executor": "Run",
-    "Application.ProducerConsumer.ProducerConsumerV0.Client.executor": "Run",
-    "Application.StreamsAndExceptionsClient.executor": "Run",
-    "Application.StreamsClient.executor": "Run",
-    "Application.WeatherStation.executor": "Run",
-    "Application.inheritance.Client.executor": "Run",
-    "Application.inheritance.constructorChaining.Client.executor": "Run",
-    "Application.interfaces.Client.executor": "Run",
-    "Application.interfaces.Stack.Client.executor": "Run",
-    "Application.polymorphism.Client.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mohitsharma/Documents/Student_Submissions/Jan24BeginnerMorning/src/main/java/ProducerConsumer/ProducerConsumerSemaphores",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DesignPatterns.Decorator.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DesignPatterns.Factory.UIFramework.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DesignPatterns.PrototypeAndRegistry.Client.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DesignPatterns.Strategy.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionsClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Generics.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LLDCaseStudy.TicTacToe.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdasClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultiThreading2.AdderSubtractor.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProducerConsumer.ProducerConsumerSemaphores.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProducerConsumer.ProducerConsumerSyncBlock.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProducerConsumer.ProducerConsumerV0.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamsAndExceptionsClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamsClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WeatherStation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.inheritance.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.inheritance.constructorChaining.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.interfaces.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.interfaces.Stack.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.polymorphism.Client.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mohitsharma/Documents/Student_Submissions/Jan24BeginnerMorning/src/main/java/ProducerConsumer/ProducerConsumerSemaphores&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/ProducerConsumer/ProducerConsumerSemaphores" />
@@ -217,7 +218,8 @@
       <workItem from="1742349609349" duration="8000" />
       <workItem from="1742436122124" duration="5463000" />
       <workItem from="1743646132612" duration="3681000" />
-      <workItem from="1743817094618" duration="3921000" />
+      <workItem from="1743817094618" duration="4730000" />
+      <workItem from="1744249086706" duration="1101000" />
     </task>
     <task id="LOCAL-00001" summary="Copy Constructor , Inheritance">
       <option name="closed" value="true" />
@@ -339,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743649143012</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="TicTacToe complete">
+      <option name="closed" value="true" />
+      <created>1743821262090</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1743821262090</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,7 +381,8 @@
     <MESSAGE value="Observer" />
     <MESSAGE value="Decorator" />
     <MESSAGE value="TicTacToe 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="TicTacToe 1" />
+    <MESSAGE value="TicTacToe complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="TicTacToe complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
