@@ -4,24 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f28f020-ddb4-4019-b4e6-cba35d696f56" name="Changes" comment="TicTacToe complete">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/BaseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/Gate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/GateType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/ParkingFloor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/ParkingLot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/ParkingSlot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/ParkingSlotStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/PaymentMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/PaymentStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/VehicleType.java" afterDir="false" />
+    <list default="true" id="0f28f020-ddb4-4019-b4e6-cba35d696f56" name="Changes" comment="Parking Lot : Models">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/controllers/TicketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/dtos/IssueTicketRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/dtos/IssueTicketResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/dtos/ResponseStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/services/TicketService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/BaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/BaseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/ParkingSlot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LLDCaseStudy/ParkingLot/models/ParkingSlot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -219,7 +211,7 @@
       <workItem from="1742436122124" duration="5463000" />
       <workItem from="1743646132612" duration="3681000" />
       <workItem from="1743817094618" duration="4730000" />
-      <workItem from="1744249086706" duration="1101000" />
+      <workItem from="1744249086706" duration="2133000" />
     </task>
     <task id="LOCAL-00001" summary="Copy Constructor , Inheritance">
       <option name="closed" value="true" />
@@ -349,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743821262090</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Parking Lot : Models">
+      <option name="closed" value="true" />
+      <created>1744250239155</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1744250239155</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,7 +382,8 @@
     <MESSAGE value="Decorator" />
     <MESSAGE value="TicTacToe 1" />
     <MESSAGE value="TicTacToe complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="TicTacToe complete" />
+    <MESSAGE value="Parking Lot : Models" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parking Lot : Models" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
